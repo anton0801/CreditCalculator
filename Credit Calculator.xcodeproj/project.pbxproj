@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE788EFF2C67DCF100F44F3A /* Credit_CalculatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788EFE2C67DCF100F44F3A /* Credit_CalculatorApp.swift */; };
+		EE788F012C67DCF100F44F3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788F002C67DCF100F44F3A /* ContentView.swift */; };
+		EE788F032C67DCF400F44F3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE788F022C67DCF400F44F3A /* Assets.xcassets */; };
+		EE788F062C67DCF400F44F3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE788F052C67DCF400F44F3A /* Preview Assets.xcassets */; };
+		EE788F0F2C67DF2A00F44F3A /* CreditCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788F0E2C67DF2A00F44F3A /* CreditCalculatorView.swift */; };
+		EE788F112C67DF3500F44F3A /* CreditsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788F102C67DF3500F44F3A /* CreditsListView.swift */; };
+		EE788F132C67E22000F44F3A /* PragmaticaExtended-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EE788F122C67E22000F44F3A /* PragmaticaExtended-Bold.ttf */; };
+		EE788F162C6800F100F44F3A /* CalculatorResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788F152C6800F000F44F3A /* CalculatorResultView.swift */; };
+		EE788F182C680AA000F44F3A /* PragmaticaExtendedBook.otf in Resources */ = {isa = PBXBuildFile; fileRef = EE788F172C680AA000F44F3A /* PragmaticaExtendedBook.otf */; };
+		EE788F1A2C6811DE00F44F3A /* CalculatorPaymentsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788F192C6811DE00F44F3A /* CalculatorPaymentsListView.swift */; };
+		EE788F222C681BF600F44F3A /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788F212C681BF600F44F3A /* DataManager.swift */; };
+		EE788F262C681EE400F44F3A /* CreditModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EE788F232C681EE400F44F3A /* CreditModel.xcdatamodeld */; };
+		EE788F292C695D6200F44F3A /* FirstDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE788F282C695D6200F44F3A /* FirstDataView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EE788EFB2C67DCF100F44F3A /* Credit Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Credit Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE788EFE2C67DCF100F44F3A /* Credit_CalculatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credit_CalculatorApp.swift; sourceTree = "<group>"; };
+		EE788F002C67DCF100F44F3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EE788F022C67DCF400F44F3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE788F052C67DCF400F44F3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EE788F0E2C67DF2A00F44F3A /* CreditCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCalculatorView.swift; sourceTree = "<group>"; };
+		EE788F102C67DF3500F44F3A /* CreditsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsListView.swift; sourceTree = "<group>"; };
+		EE788F122C67E22000F44F3A /* PragmaticaExtended-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "PragmaticaExtended-Bold.ttf"; sourceTree = "<group>"; };
+		EE788F142C67E22900F44F3A /* Credit-Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Credit-Calculator-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EE788F152C6800F000F44F3A /* CalculatorResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorResultView.swift; sourceTree = "<group>"; };
+		EE788F172C680AA000F44F3A /* PragmaticaExtendedBook.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = PragmaticaExtendedBook.otf; sourceTree = "<group>"; };
+		EE788F192C6811DE00F44F3A /* CalculatorPaymentsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorPaymentsListView.swift; sourceTree = "<group>"; };
+		EE788F212C681BF600F44F3A /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		EE788F242C681EE400F44F3A /* CreditModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreditModel.xcdatamodel; sourceTree = "<group>"; };
+		EE788F252C681EE400F44F3A /* CreditRecord.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CreditRecord.xcdatamodel; sourceTree = "<group>"; };
+		EE788F282C695D6200F44F3A /* FirstDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstDataView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE788EF82C67DCF100F44F3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE788EF22C67DCF100F44F3A = {
+			isa = PBXGroup;
+			children = (
+				EE788EFD2C67DCF100F44F3A /* Credit Calculator */,
+				EE788EFC2C67DCF100F44F3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE788EFC2C67DCF100F44F3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE788EFB2C67DCF100F44F3A /* Credit Calculator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE788EFD2C67DCF100F44F3A /* Credit Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				EE788F272C695D3800F44F3A /* First */,
+				EE788F142C67E22900F44F3A /* Credit-Calculator-Info.plist */,
+				EE788F122C67E22000F44F3A /* PragmaticaExtended-Bold.ttf */,
+				EE788F172C680AA000F44F3A /* PragmaticaExtendedBook.otf */,
+				EE788F0D2C67DE2100F44F3A /* List */,
+				EE788F0C2C67DE1400F44F3A /* Calculator */,
+				EE788EFE2C67DCF100F44F3A /* Credit_CalculatorApp.swift */,
+				EE788F002C67DCF100F44F3A /* ContentView.swift */,
+				EE788F022C67DCF400F44F3A /* Assets.xcassets */,
+				EE788F042C67DCF400F44F3A /* Preview Content */,
+				EE788F232C681EE400F44F3A /* CreditModel.xcdatamodeld */,
+			);
+			path = "Credit Calculator";
+			sourceTree = "<group>";
+		};
+		EE788F042C67DCF400F44F3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EE788F052C67DCF400F44F3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EE788F0C2C67DE1400F44F3A /* Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				EE788F0E2C67DF2A00F44F3A /* CreditCalculatorView.swift */,
+				EE788F152C6800F000F44F3A /* CalculatorResultView.swift */,
+				EE788F192C6811DE00F44F3A /* CalculatorPaymentsListView.swift */,
+				EE788F212C681BF600F44F3A /* DataManager.swift */,
+			);
+			path = Calculator;
+			sourceTree = "<group>";
+		};
+		EE788F0D2C67DE2100F44F3A /* List */ = {
+			isa = PBXGroup;
+			children = (
+				EE788F102C67DF3500F44F3A /* CreditsListView.swift */,
+			);
+			path = List;
+			sourceTree = "<group>";
+		};
+		EE788F272C695D3800F44F3A /* First */ = {
+			isa = PBXGroup;
+			children = (
+				EE788F282C695D6200F44F3A /* FirstDataView.swift */,
+			);
+			path = First;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE788EFA2C67DCF100F44F3A /* Credit Calculator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE788F092C67DCF400F44F3A /* Build configuration list for PBXNativeTarget "Credit Calculator" */;
+			buildPhases = (
+				EE788EF72C67DCF100F44F3A /* Sources */,
+				EE788EF82C67DCF100F44F3A /* Frameworks */,
+				EE788EF92C67DCF100F44F3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Credit Calculator";
+			productName = "Credit Calculator";
+			productReference = EE788EFB2C67DCF100F44F3A /* Credit Calculator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE788EF32C67DCF100F44F3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EE788EFA2C67DCF100F44F3A = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EE788EF62C67DCF100F44F3A /* Build configuration list for PBXProject "Credit Calculator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE788EF22C67DCF100F44F3A;
+			productRefGroup = EE788EFC2C67DCF100F44F3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE788EFA2C67DCF100F44F3A /* Credit Calculator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE788EF92C67DCF100F44F3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE788F062C67DCF400F44F3A /* Preview Assets.xcassets in Resources */,
+				EE788F132C67E22000F44F3A /* PragmaticaExtended-Bold.ttf in Resources */,
+				EE788F182C680AA000F44F3A /* PragmaticaExtendedBook.otf in Resources */,
+				EE788F032C67DCF400F44F3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE788EF72C67DCF100F44F3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE788F162C6800F100F44F3A /* CalculatorResultView.swift in Sources */,
+				EE788F222C681BF600F44F3A /* DataManager.swift in Sources */,
+				EE788F292C695D6200F44F3A /* FirstDataView.swift in Sources */,
+				EE788F012C67DCF100F44F3A /* ContentView.swift in Sources */,
+				EE788F1A2C6811DE00F44F3A /* CalculatorPaymentsListView.swift in Sources */,
+				EE788F262C681EE400F44F3A /* CreditModel.xcdatamodeld in Sources */,
+				EE788F112C67DF3500F44F3A /* CreditsListView.swift in Sources */,
+				EE788EFF2C67DCF100F44F3A /* Credit_CalculatorApp.swift in Sources */,
+				EE788F0F2C67DF2A00F44F3A /* CreditCalculatorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EE788F072C67DCF400F44F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE788F082C67DCF400F44F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE788F0A2C67DCF400F44F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Credit Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credit-Calculator-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Credit-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE788F0B2C67DCF400F44F3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Credit Calculator/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Credit-Calculator-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamenation.Credit-Calculator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE788EF62C67DCF100F44F3A /* Build configuration list for PBXProject "Credit Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE788F072C67DCF400F44F3A /* Debug */,
+				EE788F082C67DCF400F44F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE788F092C67DCF400F44F3A /* Build configuration list for PBXNativeTarget "Credit Calculator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE788F0A2C67DCF400F44F3A /* Debug */,
+				EE788F0B2C67DCF400F44F3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EE788F232C681EE400F44F3A /* CreditModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EE788F242C681EE400F44F3A /* CreditModel.xcdatamodel */,
+				EE788F252C681EE400F44F3A /* CreditRecord.xcdatamodel */,
+			);
+			currentVersion = EE788F242C681EE400F44F3A /* CreditModel.xcdatamodel */;
+			path = CreditModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EE788EF32C67DCF100F44F3A /* Project object */;
+}
